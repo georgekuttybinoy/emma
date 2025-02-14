@@ -7,12 +7,9 @@ const Header = () => {
         
   {/* Logo Section */}
   <div className="absolute w-[127px] h-[53px] top-[21px] left-[168px] flex items-center">
-    <h1
-      className="text-4xl font-light text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 underline"
-      style={{ fontFamily: "Roboto, sans-serif" }}
-    >
-      emma
-    </h1>
+  <h1 className="text-4xl font-light text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 underline font-['Rounded_Mplus_1c',sans-serif]">
+  emma
+</h1>
   </div>
 
   {/* Navigation */}

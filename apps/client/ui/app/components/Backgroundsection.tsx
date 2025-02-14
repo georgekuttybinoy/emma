@@ -3,7 +3,8 @@ import Image from "next/image";
 const Backgroundsection = () => {
   return (
 
-    <main className="w-full h-screen overflow-y-scroll snap-y snap-mandatory flex justify-between items-center">
+    <main className="w-full h-screen overflow-y-scroll snap-y snap-mandatory flex flex-col md:flex-row justify-between items-center">
+
 
 
 
@@ -59,12 +60,9 @@ const Backgroundsection = () => {
 
 
 <div
-  className="absolute w-[699px] h-[699px] top-[-243px] left-1/2 transform -translate-x-[43%] rounded-full"
-  style={{
-    background: "linear-gradient(180deg, #0E7BF8 0%, rgba(14, 123, 248, 0) 86.35%)",
-    filter: "blur(160px)",
-  }}
+  className="absolute w-[699px] h-[699px] top-[-243px] left-1/2 transform -translate-x-[43%] rounded-full bg-gradient-to-b from-[#0E7BF8] to-[rgba(14,123,248,0)] to-[86.35%] blur-[160px]"
 ></div>
+
 
 
   </section>
@@ -87,8 +85,8 @@ const Backgroundsection = () => {
 
   
 {/* Second Section */}
-<section className="absolute w-full h-[700px] top-[1010px] left-0 opacity-100 bg-black bg-cover bg-center">
-  <div className="max-w-5xl mx-auto px-6 relative flex justify-center">
+<section className="absolute w-full min-h-[500px] sm:min-h-[600px] md:min-h-[700px] lg:h-[700px] top-[1010px] left-0 opacity-100 bg-black bg-cover bg-center">
+  <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 relative flex justify-center">
     
 
 
@@ -100,12 +98,10 @@ const Backgroundsection = () => {
 
       {/* Title */}
       <div className="absolute w-[857px] h-[53px] top-[21px] left-[16px] flex items-center">
-        <h1
-          className="text-4xl font-light text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 underline"
-          style={{ fontFamily: "Roboto, sans-serif" }}
-        >
-          Why Choose emma?
-        </h1>
+      <h1 className="text-4xl font-light text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 underline font-['Rounded_Mplus_1c',sans-serif]">
+  Why Choose emma?
+</h1>
+
       </div>
 
 
